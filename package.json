@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "gulp-print": "^5.0.0",
+    "normalize.css": "^8.0.1",
+    "semantic-ui-css": "^2.4.1"
   },
   "devDependencies": {},
   "scripts": {
