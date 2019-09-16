@@ -6,7 +6,8 @@
   "dependencies": {
     "gulp-print": "^5.0.0",
     "normalize.css": "^8.0.1",
-    "netlify-lambda": "^1.6.3"
+    "netlify-lambda": "^1.6.3",
+    "serverless-http": "^2.3.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.2",
