@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "gulp-print": "^5.0.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "netlify-lambda": "^1.6.3"
   },
   "devDependencies": {
     "nodemon": "^1.19.2",
