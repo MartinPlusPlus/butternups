@@ -8,7 +8,7 @@ body {
 div {
   background-color: #EEEEEE; }
 
-.nav {
+#nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -16,7 +16,7 @@ div {
   overflow: hidden;
   margin-top: 0; }
 
-.nav a {
+#nav a {
   padding: 20px 10px;
   text-decoration: none;
   color: black; }
@@ -31,6 +31,7 @@ a.active {
   width: 100%; }
 
 .content {
+  margin: 0px 1%;
   padding: 16px;
   padding-bottom: 900px; }
 
