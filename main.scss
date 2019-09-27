@@ -1,0 +1,17 @@
+@import 'variables.scss';
+
+body {
+    background-color: $dark;
+    font-family: $primary-font;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: $light;
+}
+
+.nav a {
+    padding: 20px 10px;
+}
