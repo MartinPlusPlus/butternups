@@ -1,13 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond&display=swap");
 body {
   background-color: #495159;
-  font-family: "EB Garamond", serif; }
+  font-family: "EB Garamond", serif;
+  margin: 0;
+  padding: 0; }
+
+div {
+  background-color: #EEEEEE; }
 
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  background-color: #EEEEEE; }
+  background-color: #EEEEEE;
+  overflow: hidden;
+  position: fixed;
+  margin-top: 0; }
 
 .nav a {
-  padding: 20px 10px; }
+  padding: 20px 10px;
+  text-decoration: none;
+  color: black; }
+
+a.active {
+  background-color: #61A344;
+  color: white; }

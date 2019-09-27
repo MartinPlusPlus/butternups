@@ -3,6 +3,12 @@
 body {
     background-color: $dark;
     font-family: $primary-font;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background-color: $light;
 }
 
 .nav {
@@ -10,8 +16,20 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     background-color: $light;
+
+    overflow: hidden;
+    position: fixed;
+
+    margin-top: 0;
 }
 
 .nav a {
     padding: 20px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a.active {
+    background-color: $green;
+    color: white;
 }
