@@ -18,7 +18,6 @@ div {
     background-color: $light;
 
     overflow: hidden;
-    position: fixed;
 
     margin-top: 0;
 }
@@ -32,4 +31,19 @@ div {
 a.active {
     background-color: $green;
     color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content {
+    padding: 16px;
+    padding-bottom: 900px;
+}
+
+.sticky + .content {
+    padding-top: 60px;
 }

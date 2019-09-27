@@ -14,7 +14,6 @@ div {
   justify-content: flex-start;
   background-color: #EEEEEE;
   overflow: hidden;
-  position: fixed;
   margin-top: 0; }
 
 .nav a {
@@ -25,3 +24,15 @@ div {
 a.active {
   background-color: #61A344;
   color: white; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.content {
+  padding: 16px;
+  padding-bottom: 900px; }
+
+.sticky + .content {
+  padding-top: 60px; }
