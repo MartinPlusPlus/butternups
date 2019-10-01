@@ -1,29 +1,36 @@
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond&display=swap");
 body {
-  background-color: #495159;
+  background-color: #EEEEEE;
   font-family: "EB Garamond", serif;
   margin: 0;
   padding: 0; }
 
-div {
-  background-color: #EEEEEE; }
+img {
+  object-fit: cover; }
 
 #nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  background-color: #EEEEEE;
+  background-color: #61A344;
   overflow: hidden;
   margin-top: 0; }
 
 #nav a {
   padding: 20px 10px;
   text-decoration: none;
-  color: black; }
+  color: black;
+  transition: 0.25s; }
 
-a.active {
-  background-color: #61A344;
+#nav a.active {
+  background-color: #4E6378;
   color: white; }
+
+#nav a:hover {
+  transition: 0.25s;
+  background-color: #4E6378;
+  color: #EEEEEE;
+  padding: 4%; }
 
 .sticky {
   position: fixed;
@@ -38,5 +45,5 @@ a.active {
 .sticky + .content {
   padding-top: 60px; }
 
-.heading p {
+.heading * {
   margin: 5%; }

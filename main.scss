@@ -1,21 +1,21 @@
 @import 'variables.scss';
 
 body {
-    background-color: $dark;
+    background-color: $light;
     font-family: $primary-font;
     margin: 0;
     padding: 0;
 }
 
-div {
-    background-color: $light;
+img {
+    object-fit: cover;
 }
 
 #nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background-color: $light;
+    background-color: $green;
 
     overflow: hidden;
 
@@ -26,11 +26,19 @@ div {
     padding: 20px 10px;
     text-decoration: none;
     color: black;
+    transition: 0.25s;
 }
 
-a.active {
-    background-color: $green;
+#nav a.active {
+    background-color: $cobalt;
     color: white;
+}
+
+#nav a:hover {
+    transition: 0.25s;
+    background-color: $cobalt;
+    color: $light;
+    padding: 4%;
 }
 
 .sticky {
@@ -49,6 +57,6 @@ a.active {
     padding-top: 60px;
 }
 
-.heading p {
+.heading * {
     margin: 5%;
 }

@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Raspberry",
+        "price": "$10.00",
+        "imgSrc": "https://www.happyfoodstube.com/wp-content/uploads/2018/05/homemade-raspberry-butter-picture.jpg"
+    },
+    {
+        "name": "sampletext",
+        "price": "sampletext",
+        "imgSrc": "sampleLink"
+    },
+    {
+        "name": "sampletext",
+        "price": "sampletext",
+        "imgSrc": "sampleLink"
+    },
+    {
+        "name": "sampletext",
+        "price": "sampletext",
+        "imgSrc": "sampleLink"
+    },
+    {
+        "name": "sampletext",
+        "price": "sampletext",
+        "imgSrc": "sampleLink"
+    },
+    {
+        "name": "sampletext",
+        "price": "sampletext",
+        "imgSrc": "sampleLink"
+    },
+    {
+        "name": "sampletext",
+        "price": "sampletext",
+        "imgSrc": "sampleLink"
+    }
+]

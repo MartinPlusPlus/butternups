@@ -15,6 +15,10 @@ app.get('/buy', function(req, res) {
     res.sendFile(path.join(__dirname + '/buy.html'))
 });
 
+app.get('/butters', function(req, res) {
+    res.sendFile(path.join(__dirname + '/butters.html'))
+});
+
 app.listen(3000);
 
 module.exports.handler = serverless(app);
