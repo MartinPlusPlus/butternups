@@ -6,32 +6,32 @@
     },
     {
         "name": "Blackberry",
-        "price": "sampletext",
+        "price": "$10.00",
         "imgSrc": "sampleLink"
     },
     {
         "name": "Strawberry",
-        "price": "sampletext",
+        "price": "$10.00",
         "imgSrc": "sampleLink"
     },
     {
         "name": "Cherry",
-        "price": "sampletext",
+        "price": "$10.00",
         "imgSrc": "sampleLink"
     },
     {
         "name": "Cinnamon Honey",
-        "price": "sampletext",
+        "price": "$10.00",
         "imgSrc": "sampleLink"
     },
     {
         "name": "Spiced Peach",
-        "price": "sampletext",
+        "price": "$10.00",
         "imgSrc": "sampleLink"
     },
     {
         "name": "Chocolate",
-        "price": "sampletext",
+        "price": "$10.00",
         "imgSrc": "sampleLink"
     }
 ]
