@@ -13,7 +13,7 @@ $.getJSON( "json/butters.json", function( json ) {
 
 $.getJSON( "json/nav.json", function ( json ) {
 	console.log( json )
-	for (let i = 0; i < json.length; i++) {
+	for (let i = 1; i < json.length; i++) {
 		$("#nav").append(`
 			<a class="item" href="/${json[i].name}">${json[i].name}</a>
 		`)
