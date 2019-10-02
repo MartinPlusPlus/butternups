@@ -5,6 +5,10 @@
   font-size: 5em;
   text-align: center; }
 
+p {
+  font-size: 2em;
+  text-align: center; }
+
 #nav {
   display: flex;
   flex-direction: row;
@@ -14,10 +18,12 @@
   margin-top: 0; }
 
 #nav a {
+  text-align: center;
   padding: 20px 10px;
   text-decoration: none;
   color: black;
-  transition: 0.25s; }
+  transition: 0.25s;
+  width: 25%; }
 
 #nav a.active {
   background-color: #4E6378;
@@ -25,8 +31,7 @@
 
 #nav a:hover {
   transition: 0.25s;
-  background-color: #4E6378;
-  color: #EEEEEE;
+  font-size: 200%;
   padding: 4%; }
 
 body {
