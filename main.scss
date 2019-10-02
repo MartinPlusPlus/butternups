@@ -1,4 +1,6 @@
 @import 'variables.scss';
+@import 'text.scss';
+@import 'navbar.scss';
 
 body {
     background-color: $light;
@@ -9,36 +11,6 @@ body {
 
 img {
     object-fit: cover;
-}
-
-#nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: $green;
-
-    overflow: hidden;
-
-    margin-top: 0;
-}
-
-#nav a {
-    padding: 20px 10px;
-    text-decoration: none;
-    color: black;
-    transition: 0.25s;
-}
-
-#nav a.active {
-    background-color: $cobalt;
-    color: white;
-}
-
-#nav a:hover {
-    transition: 0.25s;
-    background-color: $cobalt;
-    color: $light;
-    padding: 4%;
 }
 
 .sticky {

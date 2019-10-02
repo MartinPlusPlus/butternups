@@ -2,36 +2,36 @@
     {
         "name": "Raspberry",
         "price": "$10.00",
-        "imgSrc": "https://www.happyfoodstube.com/wp-content/uploads/2018/05/homemade-raspberry-butter-picture.jpg"
+        "imgSrc": "http://bit.ly/2nPrNJt"
     },
     {
         "name": "Blackberry",
         "price": "$10.00",
-        "imgSrc": "sampleLink"
+        "imgSrc": "http://bit.ly/2ou71iE"
     },
     {
         "name": "Strawberry",
         "price": "$10.00",
-        "imgSrc": "sampleLink"
+        "imgSrc": "http://bit.ly/2otCGAG"
     },
     {
         "name": "Cherry",
         "price": "$10.00",
-        "imgSrc": "sampleLink"
+        "imgSrc": "http://bit.ly/2pnbvYN"
     },
     {
         "name": "Cinnamon Honey",
         "price": "$10.00",
-        "imgSrc": "sampleLink"
+        "imgSrc": "http://bit.ly/2mWvLzD"
     },
     {
         "name": "Spiced Peach",
         "price": "$10.00",
-        "imgSrc": "sampleLink"
+        "imgSrc": "http://bit.ly/2pic6La"
     },
     {
         "name": "Chocolate",
         "price": "$10.00",
-        "imgSrc": "sampleLink"
+        "imgSrc": "http://bit.ly/2pfg0o2"
     }
 ]

@@ -1,0 +1,31 @@
+@import 'variables.scss';
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $green;
+
+    overflow: hidden;
+
+    margin-top: 0;
+}
+
+#nav a {
+    padding: 20px 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.25s;
+}
+
+#nav a.active {
+    background-color: $cobalt;
+    color: white;
+}
+
+#nav a:hover {
+    transition: 0.25s;
+    background-color: $cobalt;
+    color: $light;
+    padding: 4%;
+}
