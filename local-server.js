@@ -11,12 +11,16 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
-app.get('/buy', function(req, res) {
-    res.sendFile(path.join(__dirname + '/buy.html'))
+app.get('/butters', function(req, res) {
+    res.sendFile(path.join(__dirname + '/butters.html'))
 });
 
 app.get('/butters', function(req, res) {
-    res.sendFile(path.join(__dirname + '/butters.html'))
+    res.sendFile(path.join(__dirname + '/about.html'))
+});
+
+app.get('/butters', function(req, res) {
+    res.sendFile(path.join(__dirname + '/reviews.html'))
 });
 
 app.listen(3000);
