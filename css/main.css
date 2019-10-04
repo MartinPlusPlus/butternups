@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond&display=swap");
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond&display=swap");
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond&display=swap");
 #welcome {
   font-size: 5em;
   text-align: center; }
@@ -33,6 +34,10 @@ p {
   transition: 0.25s;
   font-size: 200%;
   padding: 4%; }
+
+@media screen and (max-width: 568px) {
+  #welcome {
+    font-size: 3em; } }
 
 body {
   background-color: #EEEEEE;

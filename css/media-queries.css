@@ -1,0 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond&display=swap");
+@media screen and (max-width: 568px) {
+  #welcome {
+    font-size: 3em; } }
