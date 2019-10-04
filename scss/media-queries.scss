@@ -1,0 +1,7 @@
+@import 'variables.scss';
+
+#welcome {
+    @media screen and (max-width: $break-sm) {
+        font-size: 3em;
+    }
+}
