@@ -3,6 +3,15 @@
   #welcome {
     font-size: 3em; }
   #nav a {
-    font-size: 2em; }
+    font-size: 1em; }
   .content p {
-    font-size: 2em; } }
+    font-size: 3em; } }
+
+@media screen and (max-width: 1024px) {
+  #welcome {
+    font-size: 3em; }
+  #nav a {
+    font-size: 3em;
+    padding: 40px 10px; }
+  .content p {
+    font-size: 4em; } }
