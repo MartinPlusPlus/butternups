@@ -23,6 +23,10 @@ app.get('/Reviews', function(req, res) {
     res.sendFile(path.join(__dirname + '/reviews.html'))
 });
 
+app.get('/Contact', function(req, res) {
+    res.sendFile(path.join(__dirname + '/contact.html'))
+});
+
 app.listen(3000);
 
 module.exports.handler = serverless(app);
