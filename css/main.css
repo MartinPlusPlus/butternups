@@ -37,7 +37,11 @@ p {
 
 @media screen and (max-width: 568px) {
   #welcome {
-    font-size: 3em; } }
+    font-size: 3em; }
+  #nav a {
+    font-size: 2em; }
+  .content p {
+    font-size: 2em; } }
 
 body {
   background-color: #EEEEEE;

@@ -1,7 +1,15 @@
 @import 'variables.scss';
 
-#welcome {
-    @media screen and (max-width: $break-sm) {
+@media screen and (max-width: $break-sm) {
+    #welcome {
         font-size: 3em;
+    }
+
+    #nav a {
+        font-size: 2em;
+    }
+
+    .content p {
+        font-size: 2em;
     }
 }
