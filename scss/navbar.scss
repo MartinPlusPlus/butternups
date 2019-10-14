@@ -30,3 +30,10 @@
     font-size: 200%;
     padding: 4%;
 }
+
+.dropdown {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+}

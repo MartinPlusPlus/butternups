@@ -2,7 +2,7 @@
 @media screen and (max-width: 568px) {
   #welcome {
     font-size: 3em; }
-  #nav a {
+  a.item {
     font-size: 1em; }
   .content p {
     font-size: 3em; } }
@@ -10,8 +10,13 @@
 @media screen and (max-width: 1024px) {
   #welcome {
     font-size: 3em; }
-  #nav a {
+  #nav {
+    display: flex;
+    flex-direction: column; }
+  a.item {
     font-size: 3em;
-    padding: 40px 10px; }
+    padding: 40px 10px;
+    text-align: center;
+    width: 100%; }
   .content p {
     font-size: 4em; } }
