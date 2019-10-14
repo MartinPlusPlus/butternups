@@ -22,7 +22,7 @@
         <a href="/" class="item">Home</a>
     </div>
     <main class="content">
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
             <p>
                 <label>Your Name: <input type="text" name="name" /></label>
             </p>
@@ -32,6 +32,7 @@
             <p>
                 <label>Message: <textarea name="message"></textarea></label>
             </p>
+            <div data-netlify-recaptcha="true"></div>
             <p>
                 <button type="submit">Send</button>
             </p>
