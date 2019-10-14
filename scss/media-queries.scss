@@ -5,11 +5,33 @@
         font-size: 3em;
     }
 
-    #nav a {
-        font-size: 2em;
+    a.item {
+        font-size: 1em;
     }
 
     .content p {
-        font-size: 2em;
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: $break-lg) {
+    #welcome {
+        font-size: 3em;
+    }
+
+    #nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a.item {
+        font-size: 3em;
+        padding: 40px 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .content p {
+        font-size: 4em;
     }
 }
