@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "browser-refresh": "^1.7.3",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "nodemon": "^1.19.2",
     "semantic-ui-css": "^2.4.1"
   },
